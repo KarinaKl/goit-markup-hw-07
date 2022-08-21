@@ -7,8 +7,6 @@
   /* заменить фиксированное значение на calc  */
   /* calc (100% - кол-во маржинов в строке * значение маржина)/ кол-во елементов в строке */
   width: calc((100% - 60px) / 3);
-  margin-right: 30px;
-  margin-bottom: 30px;
 }
 .card-set__item:nth-child(3n) {
   margin-right: 0;
