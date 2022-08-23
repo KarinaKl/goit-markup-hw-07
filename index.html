@@ -20,7 +20,7 @@
   <body>
     <!-- Header-->
     <header class="page-header">
-      <div class="container page-header__main">
+      <div class="container page-header__container">
         <nav class="nav">
           <a href="./index.html" class="logo">Web<span class="logo__accent">Studio</span></a>
           <ul class="site-nav list">
@@ -75,17 +75,17 @@
       </section>
 
       <!-- Features -->
-      <section class="features section">
+      <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Особливості</h2>
-          <ul class="features__list list">
+          <ul class="features list">
             <li class="features__item">
               <div class="features__icon-wrap">
                 <svg class="features__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h3 class="features__sub-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <h3 class="features__title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="features__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
@@ -131,10 +131,10 @@
       </section>
 
       <!-- About -->
-      <section class="about section">
+      <section class="section section--no-padding-top">
         <div class="container">
-          <h2 class="about__title">Чим ми займаємося</h2>
-          <ul class="about__list list">
+          <h2 class="section__title">Чим ми займаємося</h2>
+          <ul class="about list">
             <li class="about__item">
               <img src="./images/img1.jpg" alt="Программирование" width="370" height="294" />
               <p class="about__text">Десктопні додатки</p>
@@ -152,20 +152,20 @@
       </section>
 
       <!-- Team  -->
-      <section class="team section">
+      <section class="section section--other-background">
         <div class="container">
-          <h2 class="team__title">Наша команда</h2>
-          <ul class="card-set list">
-            <li class="card-set__item">
+          <h2 class="section__title">Наша команда</h2>
+          <ul class="gallery list">
+            <li class="gallery__item">
               <img
                 src="./images/team-card1.jpg"
                 alt="Карточка команды 1"
                 width="270"
                 height="260"
               />
-              <div class="team-member">
-                <h3 class="team-member__name">Ігор Дем'яненко</h3>
-                <p class="team-member__position">Product Designer</p>
+              <div class="gallery__box">
+                <h3 class="gallery__title">Ігор Дем'яненко</h3>
+                <p class="gallery__text">Product Designer</p>
                 <ul class="social-networks list">
                   <li class="social-networks__item">
                     <a href="" class="social-networks__link link">
@@ -198,16 +198,16 @@
                 </ul>
               </div>
             </li>
-            <li class="card-set__item">
+            <li class="gallery__item">
               <img
                 src="./images/team-card2.jpg"
                 alt="Карточка команды 2"
                 width="270"
                 height="260"
               />
-              <div class="team-member">
-                <h3 class="team-member__name">Ольга Репина</h3>
-                <p class="team-member__position">Frontend Developer</p>
+              <div class="gallery__box">
+                <h3 class="gallery__title">Ольга Репина</h3>
+                <p class="gallery__text">Frontend Developer</p>
                 <ul class="social-networks list">
                   <li class="social-networks__item">
                     <a href="" class="social-networks__link link">
@@ -240,16 +240,16 @@
                 </ul>
               </div>
             </li>
-            <li class="card-set__item"">
+            <li class="gallery__item">
               <img
                 src="./images/team-card3.jpg"
                 alt="Карточка команды 3"
                 width="270"
                 height="260"
               />
-              <div class="team-member">
-                <h3 class="team-member__name">Миколай Тарасов</h3>
-                <p class="team-member__position">Marketing</p>
+              <div class="gallery__box">
+                <h3 class="gallery__title">Миколай Тарасов</h3>
+                <p class="gallery__text">Marketing</p>
                 <ul class="social-networks list">
                   <li class="social-networks__item">
                     <a href="" class="social-networks__link link">
@@ -282,16 +282,16 @@
                 </ul>
               </div>
             </li>
-            <li class="card-set__item"">
+            <li class="gallery__item">
               <img
                 src="./images/team-card4.jpg"
                 alt="Карточка команды 4"
                 width="270"
                 height="260"
               />
-              <div class="team-member">
-                <h3 class="team-member__name">Михайло Ермаков</h3>
-                <p class="team-member__position">UI Designer</p>
+              <div class="gallery__box">
+                <h3 class="gallery__title">Михайло Ермаков</h3>
+                <p class="gallery__text">UI Designer</p>
                 <ul class="social-networks list">
                   <li class="social-networks__item">
                     <a href="" class="social-networks__link link">
@@ -329,10 +329,10 @@
       </section>
 
       <!-- Clients -->
-      <section class="clients section">
+      <section class="section">
         <div class="container">
-          <h2 class="clients__title">Постійні клієнти</h2>
-          <ul class="clients__list list">
+          <h2 class="section__title">Постійні клієнти</h2>
+          <ul class="clients list">
             <li class="clients__item">
               <a href="" class="clients__link link">
                 <svg class="clients__icon" width="106" height="60">
@@ -531,7 +531,8 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              Погоджуюся з розсилкою та приймаю <a class="checkbox-wrap__link" href="#">Умови договору</a>
+              Погоджуюся з розсилкою та приймаю
+              <a class="checkbox-wrap__link" href="#">Умови договору</a>
             </label>
           </div>
 

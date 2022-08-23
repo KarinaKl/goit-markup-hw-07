@@ -1,21 +1,19 @@
-.clients {
-  &__title {
-    @include font(700, 36px, 1.17, 0.03em);
-    text-align: center;
-    color: var(--black-main-color);
-    margin-top: 0;
-    margin-bottom: 50px;
-  }
-  &__list {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-  }
-
-  &__icon {
-    fill: currentColor;
-  }
+.clients__title {
+  @include font(700, 36px, 1.17, 0.03em);
+  text-align: center;
+  color: var(--black-main-color);
+  margin-bottom: 50px;
 }
+.clients {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.clients__icon {
+  fill: currentColor;
+}
+
 .clients__link {
   display: flex;
   justify-content: center;

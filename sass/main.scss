@@ -5,24 +5,25 @@
 @import './base/common';
 @import './vendors/hidden';
 
-@import './layout/container';
-@import './layout/section';
-@import './layout/logo';
-@import './layout/header';
-@import './layout/footer';
+@import './components/container';
+@import './components/section';
+@import './components/logo';
+@import './components/header';
+@import './components/footer';
+@import './components/section-title';
 
-@import './components/modal/modal-backdrop';
-@import './components/modal/modal-close-btn';
-@import './components/modal/modal-form';
-@import './components/modal/modal-checkbox';
-@import './components/modal/modal-btn';
+@import './layout/modal/modal-backdrop';
+@import './layout/modal/modal-close-btn';
+@import './layout/modal/modal-form';
+@import './layout/modal/modal-checkbox';
+@import './layout/modal/modal-btn';
 
-@import './components/studio/hero';
-@import './components/studio/features';
-@import './components/studio/about';
-@import './components/studio/team';
-@import './components/studio/clients';
+@import './layout/studio/hero';
+@import './layout/studio/features';
+@import './layout/studio/about';
+@import './layout/studio/team';
+@import './layout/studio/clients';
 
-@import './components/portfolio/filter';
-@import './components/portfolio/project';
-@import './components/portfolio/overlay';
+@import './layout/portfolio/filter';
+@import './layout/portfolio/project';
+@import './layout/portfolio/overlay';
